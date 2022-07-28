@@ -1,0 +1,15 @@
+body{
+  width: $width;
+  font-family: $font-primary;
+  font-size: $font-size-default;
+}
+
+.container{
+  width: $content-width;
+  margin: 0 auto;
+
+ &__cards{
+   display: flex;
+   justify-content: space-between;
+ }
+}
